@@ -15,5 +15,4 @@ if path.exists('input.txt'):
 
 
 a= list(map(int,input().split()))
-b= int(input())
 
