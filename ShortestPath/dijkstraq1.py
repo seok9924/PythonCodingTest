@@ -1,8 +1,9 @@
 import heapq
 import sys
+from os import path
 
-
-input= sys.stdin.readline
+if path.exists('input.txt'):
+    sys.stdin = open("input.txt", "r")
 INF= int(1e9)
 
 n,m,start= map(int, input().split())
