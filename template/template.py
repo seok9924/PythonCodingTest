@@ -1,6 +1,5 @@
 import math
-import sys
-from os import path
+
 import itertools
 import collections
 import heapq
@@ -10,6 +9,8 @@ import bisect
 from collections import deque
 import os
 
+import sys
+from os import path
 if path.exists('input.txt'):
     sys.stdin = open("input.txt", "r")
 
