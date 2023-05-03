@@ -1,3 +1,4 @@
-n,k= map(int,input().split())
-data=[]
-for i in range
+aoa="43 + 12"
+a,op,b=aoa.split()
+print(a,op,b)
+False
