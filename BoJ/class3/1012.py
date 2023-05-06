@@ -1,8 +1,10 @@
-from collections import deque
 # import sys
 # from os import path
 # if path.exists('input.txt'):
 #     sys.stdin = open("input.txt", "r")
+
+from collections import deque
+
 dx = [0,0,1,-1]
 dy = [1,-1,0,0]
 
